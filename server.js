@@ -3,7 +3,6 @@ const express = require('express');
 const fs = require('fs');
 
 const port = 5000;
-const db = new DataBase('./db.json');
 const app = express();
 
 app.get('/', (req, res) => {
